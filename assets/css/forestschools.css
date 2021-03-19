@@ -1,0 +1,139 @@
+body {
+  background-color: #F7F9FB;
+  color: #31708E;
+  font-size: 1.2em;
+}
+
+textarea {
+  resize: none;
+  height: auto;
+  width: 5em;
+}
+
+.admin-login {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding: 1em;
+}
+
+.admin-login input {
+  margin: 0.3em;
+}
+
+.warning {
+  margin: 0 auto;
+  width: 80%;
+  padding: 0.5em;
+  border-radius: 15px;
+  background-color: #31708E;
+  color: #F7F9FB;
+}
+
+/* Colour pallette
+white = #F7F9FB
+light blue = #8FC1E3
+mid blue = #5085A5
+Deep blue = #31708E
+Fern green = #687864
+ */
+.navbar {
+  background-color: #31708E;
+}
+
+.jumbotron {
+  background-image: url("../pictures/naturetrail.jpg");
+  background-color: #cccccc;
+  background-position:50% 50%;  /* Sets reference point to scale from */
+  background-size:cover;
+  color: #F7F9FB;
+}
+
+.gallery-jumbotron {
+  background-image: url("../pictures/beehive.jpg");
+}
+
+.aboutus-jumbotron {
+  background-image: url("../pictures/inukshuk.jpeg");
+}
+
+.policies-jumbotron {
+  background-image: url("../pictures/sunset.png");
+}
+
+.jumbotron .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .row {
+  padding: 15px;
+}
+
+.container .row .col {
+  margin: auto;
+}
+
+.container .row .col img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.container h1 {
+  padding: 15px 0;
+}
+
+.about_us {
+  text-align: left;
+}
+
+.front-page-article .headline{
+  color: #31708E;
+}
+
+.front-page-article .article-text{
+  color: #6B6E70;
+}
+
+.policy_grid {
+  /* background-color: #31708E;
+  border-radius: 15px;
+  color: #F7F9FB; */
+}
+
+.quoteCarousel {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  background-image: url("../pictures/fs_handprint.jpg");
+  background-position:50% 50%;  /* Sets reference point to scale from */
+  background-size:cover;
+  background-color: #687864;
+  color: #F7F9FB;
+  border-radius: 10px;
+}
+
+.quoteCarousel .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+.fadeSlideIn {
+  animation: fadeIn ease 2s;
+}
+
+.fadeSlideOut {
+  animation: fadeOut ease 2s;
+}
