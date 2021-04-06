@@ -47,6 +47,7 @@ Fern green = #687864
   background-position:50% 50%;  /* Sets reference point to scale from */
   background-size:cover;
   color: #F7F9FB;
+  margin-bottom: 0;
 }
 
 .gallery-jumbotron {
@@ -136,4 +137,8 @@ Fern green = #687864
 
 .fadeSlideOut {
   animation: fadeOut ease 2s;
+}
+
+#weatherBar {
+  color: #F7F9FB;
 }

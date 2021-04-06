@@ -1,4 +1,11 @@
-<?php echo file_get_contents("assets/html/header.html"); ?>
+<?php
+if(!isset($_SESSION))
+{
+session_start();
+}
+include 'getWeather.php';
+echo file_get_contents("assets/html/header.html");
+?>
 <main role="main">
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
@@ -8,6 +15,13 @@
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Check dates &raquo;</a></p>
     </div>
   </div>
+  <!-- Weather bar display using the openweatermap API -->
+  <header class="py-3 mb-4  bg-dark border-bottom">
+    <div class="container d-flex flex-wrap justify-conten-center" id="weatherBar">
+      <h4>The weather here is: <?php echo $_SESSION["main_weather"]?>, with a temperature of <?php echo $_SESSION["current_temp"] . "°C/" . round((($_SESSION["current_temp"]*9/5)+32),2) . "°F" ?></h1>
+    </div>
+  </header>
+
 
 <!-- http://localhost/forestschools/index.php -->
 <!-- s770353848.websitehome.co.uk -->
